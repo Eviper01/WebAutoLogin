@@ -1,1 +1,1 @@
-python WebAutologin.py
+python3 WebAutologin.py

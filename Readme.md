@@ -1,5 +1,4 @@
 
-[newwinlogo]: http://i.stack.imgur.com/B8Zit.png
 # WebAutoLogin
 A tool to automatically login to the SuperLoop Internet Gateway, using selenium webdriver and chromedriver.
 ## Windows Installation
@@ -10,12 +9,15 @@ A tool to automatically login to the SuperLoop Internet Gateway, using selenium 
 
 	 or
 	 Download the repository as Zip.
-2. Copy the contents of master into the startup folder located by pressing  <kbd>![Windows Key][newwinlogo]</kbd>+<kbd>R</kbd> and then type:
+2. Copy the contents of master into the startup folder located by pressing  <kbd>Win</kbd>+<kbd>R</kbd> and then type:
 
 		shell:startup
 
 3. Edit details.config
-	replace \<YourUserName> with your username and replace \<YourPassword> with your password.
+	replace \<YourUserName> with your username and replace \<YourPassword> with your password. For example:
+
+        User: Joe.Blogs.threesome
+        Password: abcd1234
 
 4. Install chromewebdriver and add to the system path (also install google chrome if you havent already. It can be downloaded from https://chromedriver.chromium.org/downloads.
 
